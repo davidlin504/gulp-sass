@@ -1,0 +1,23 @@
+//sass style
+//-------------------------------
+$borderDirection:       top !default; 
+$baseFontSize:          12px !default;
+$baseLineHeight:        1.5 !default;
+
+//应用于class和属性
+.border-#{$borderDirection}{
+  border-#{$borderDirection}:1px solid #ccc;
+}
+//应用于复杂的属性值
+body{
+    font:#{$baseFontSize}/#{$baseLineHeight};
+}
+
+//css style
+//-------------------------------
+.border-top{
+  border-top:1px solid #ccc;
+}
+body {
+  font: 18px/1.5;
+}
